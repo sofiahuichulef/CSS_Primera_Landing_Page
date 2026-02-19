@@ -1,0 +1,110 @@
+/* rest basico */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+/* usamos flexbox para organizar el contenido de la página */
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+#header-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+main{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    padding: 20px;
+}
+
+main div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+section{
+    background-color: rgb(59, 166, 185);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+button.btn{
+    background-color: rgb(17, 100, 128);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(17, 100, 128);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#banner-anuncios{
+    background-color: rgb(25, 145, 185);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}   
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+}
+
+
